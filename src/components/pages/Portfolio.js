@@ -5,16 +5,16 @@ import Card from 'react-bootstrap/Card';
 
 
 
-export default function Portfolio() {
+function Portfolio() {
   return (
     <div>
-      <h1>Emm's Portfolio</h1>
+      <h2>Emm's Portfolio</h2>
       <div className="container">
-        <div className="card" style={cardStyle}>
+        <div className="card" >
           <img
             className="card-img-top"
-            src={props.image}
-            alt="Card cap"
+            src='./notesnip.PNG'
+
           />
           <div className="card-body">
           <h5 className="card-title">NoteTaker2000</h5>
@@ -28,11 +28,11 @@ export default function Portfolio() {
       </div>
 
       <div className="container">
-        <div className="card" style={cardStyle}>
+        <div className="card" >
           <img
             className="card-img-top"
-            src={props.image}
-            alt="Card cap"
+            src='./readmesnip.PNG'
+
           />
           <div className="card-body">
           <h5 className="card-title">ReadMeGenerator</h5>
@@ -45,11 +45,11 @@ export default function Portfolio() {
       </div>
 
       <div className="container">
-        <div className="card" style={cardStyle}>
+        <div className="card">
           <img
             className="card-img-top"
-            src={props.image}
-            alt="Card cap"
+            src='./dlyplnrsnip.PNG'
+
           />
           <div className="card-body">
           <h5 className="card-title">dailyPlanner</h5>
@@ -64,11 +64,11 @@ export default function Portfolio() {
       </div>
 
       <div className="container">
-        <div className="card" style={cardStyle}>
+        <div className="card" >
           <img
             className="card-img-top"
-            src={props.image}
-            alt="Card cap"
+            src='./pswsnip.PNG'
+
           />
           <div className="card-body">
           <h5 className="card-title">PasswordGenerator</h5>
@@ -83,11 +83,11 @@ export default function Portfolio() {
       </div>
 
       <div className="container">
-        <div className="card" style={cardStyle}>
+        <div className="card" >
           <img
             className="card-img-top"
-            src={props.image}
-            alt="Card cap"
+            src='./quizgmsnip.PNG'
+
           />
           <div className="card-body">
           <h5 className="card-title">TimedQuizGame</h5>
@@ -101,11 +101,11 @@ export default function Portfolio() {
       </div>
 
       <div className="container">
-        <div className="card" style={cardStyle}>
+        <div className="card" >
           <img
             className="card-img-top"
-            src={props.image}
-            alt="Card cap"
+            src='./pmksnip.PNG'
+
           />
           <div className="card-body">
           <h5 className="card-title">Name: Poketeam Builder</h5>
@@ -120,25 +120,6 @@ The user is able to search a pokemon monster and be presented with a gif, its ty
       </div>
     </div>
   );
-}
+};
 
-
-
-
-function BasicExample() {
-  return (
-
-    <Card style={{ width: '18rem' }}>
-    {props.projects.map(project => (
-      <Card.Img variant="top" key={project.id} src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>))}
-    </Card>
-  );
-}
+export default Portfolio;

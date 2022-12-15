@@ -3,8 +3,8 @@ import React from 'react';
 export default function About() {
   return (
     <div>
-      <h1>About Emm!</h1>
-      <image src = './icon.PNG' alt = 'a cartoony emm giving double peace signs' />
+      <h2>About Emm!</h2>
+      <img src = './icon.PNG' alt = 'a cartoony emm giving double peace signs' />
       <p>
 
     HI! I'm Emm, an amatuer coder and cartoonist! my pronouns are she/her and I'm 24 years old. I'm happily married and have three lovely cats: Weyland, Newt and Wyrm. I've been learning about web developement and honing my skills over the past few months with a particular interest in front end developement and graphic design.

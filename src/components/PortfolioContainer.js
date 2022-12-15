@@ -27,6 +27,10 @@ export default function PortfolioContainer() {
     <div>
     <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
     {renderPage()}
+
+    <div> footer
     </div>
+    </div>
+
   )
 }

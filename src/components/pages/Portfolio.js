@@ -13,7 +13,7 @@ function Portfolio() {
         <div className="card" >
           <img
             className="card-img-top"
-            src='./notesnip.PNG'
+            src='./noteTakersnip.PNG'
 
           />
           <div className="card-body">
@@ -31,7 +31,7 @@ function Portfolio() {
         <div className="card" >
           <img
             className="card-img-top"
-            src='./readmesnip.PNG'
+            src='./readsnip.PNG'
 
           />
           <div className="card-body">
@@ -48,7 +48,7 @@ function Portfolio() {
         <div className="card">
           <img
             className="card-img-top"
-            src='./dlyplnrsnip.PNG'
+            src='./plannersnip.PNG'
 
           />
           <div className="card-body">
@@ -67,7 +67,7 @@ function Portfolio() {
         <div className="card" >
           <img
             className="card-img-top"
-            src='./pswsnip.PNG'
+            src='./passwordsnip.PNG'
 
           />
           <div className="card-body">
@@ -86,7 +86,7 @@ function Portfolio() {
         <div className="card" >
           <img
             className="card-img-top"
-            src='./quizgmsnip.PNG'
+            src='./quizSnip.PNG'
 
           />
           <div className="card-body">
@@ -104,7 +104,7 @@ function Portfolio() {
         <div className="card" >
           <img
             className="card-img-top"
-            src='./pmksnip.PNG'
+            src='./pkmsnip.PNG'
 
           />
           <div className="card-body">

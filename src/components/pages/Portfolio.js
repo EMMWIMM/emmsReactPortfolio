@@ -8,9 +8,9 @@ import Card from 'react-bootstrap/Card';
 function Portfolio() {
   return (
     <div>
-      <h2>Emm's Portfolio</h2>
+    
       <div className="container">
-        <div className="card" >
+        <div className="card crdStyle" >
           <img
             className="card-img-top"
             src='./noteTakersnip.PNG'
@@ -28,7 +28,7 @@ function Portfolio() {
       </div>
 
       <div className="container">
-        <div className="card" >
+        <div className="card crdStyle" >
           <img
             className="card-img-top"
             src='./readsnip.PNG'
@@ -45,7 +45,7 @@ function Portfolio() {
       </div>
 
       <div className="container">
-        <div className="card">
+        <div className="card crdStyle">
           <img
             className="card-img-top"
             src='./plannersnip.PNG'
@@ -64,7 +64,7 @@ function Portfolio() {
       </div>
 
       <div className="container">
-        <div className="card" >
+        <div className="card crdStyle" >
           <img
             className="card-img-top"
             src='./passwordsnip.PNG'
@@ -83,7 +83,7 @@ function Portfolio() {
       </div>
 
       <div className="container">
-        <div className="card" >
+        <div className="card crdStyle" >
           <img
             className="card-img-top"
             src='./quizSnip.PNG'
@@ -101,7 +101,7 @@ function Portfolio() {
       </div>
 
       <div className="container">
-        <div className="card" >
+        <div className="card crdStyle" >
           <img
             className="card-img-top"
             src='./pkmsnip.PNG'

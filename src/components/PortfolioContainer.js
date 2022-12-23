@@ -6,6 +6,9 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import '../../src/App.css'
 
+
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
@@ -25,12 +28,28 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return(
-    <div>
+    <div className='main'>
     <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
     {renderPage()}
 
-    <div> footer
-    </div>
+    <footer className= 'footer'>
+    <a href='https://github.com/EMMWIMM' target="_blank" rel="noreferrer">
+            <button variant="secondary" size="sm">
+              GitHub
+            </button>
+          </a>
+          <a href='https://github.com/EMMWIMM' target="_blank" rel="noreferrer">
+            <button variant="secondary" size="sm">
+              LinkedIn
+            </button>
+          </a>
+   
+    <a href='https://github.com/EMMWIMM' target="_blank" rel="noreferrer">
+            <button variant="secondary" size="sm">
+              Instagram
+            </button>
+          </a>
+    </footer>
     </div>
 
   )

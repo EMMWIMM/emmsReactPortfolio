@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 class Contact extends Component {
   constructor(props) {
     super(props);
@@ -28,7 +29,7 @@ class Contact extends Component {
   render() {
     const { status } = this.state;
     return (
-      <div className="bg-dark text-white" id="contactSect">
+      <div className="formStyle" id="contactSect">
         <div className="container" id="contact">
           <h3 className="contact text-center">Please Drop a Message</h3>
           <form

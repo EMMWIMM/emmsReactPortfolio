@@ -12,9 +12,53 @@
 }
 
 body{
-  background-color: var(--lightGreen)
+  background-color: var(--pwdPink);
+  flex: auto;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.card-img-top{
-  width: 50px;
+.main{
+  background-color: var(--Pink);
+  flex: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.card-img-top{
+  width: 100%;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+
+.crdStyle{
+  background-color: var(--lightGreen);
+  width: 40%;
+  border-style: solid;
+  border-color: var(--green);
+  border-width: 5px;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin: 10px; 
+}
+
+.nav{
+  background-color: var(--lightPurple);
+}
+
+.btn{
+  background-color: var(--pink);
+  border-color: var(--pwdPink);
+}
+
+.footer{
+  background-color: var(--lightPurple);
+  justify-content: flex-end;
+}
+
+.formStyle{
+  background-color: #581845;
+}
+.btn-primary{
+  background-color: var(--pink);
+  border-color: var(--pwdPink);
 }

@@ -7,7 +7,7 @@ import Card from 'react-bootstrap/Card';
 
 function Portfolio() {
   return (
-    <div>
+    <div className="cards">
     
       <div className="container">
         <div className="card crdStyle" >

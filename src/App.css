@@ -13,12 +13,19 @@
 
 body{
   background-color: var(--pwdPink);
-  flex: auto;
+  display: flex;
+  /* position: fixed; */
+  /* top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  /* flex: auto; */
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; 
 }
 .main{
   background-color: var(--Pink);
+  display: flex;
   flex: auto;
   flex-wrap: wrap;
   justify-content: center;
@@ -30,35 +37,91 @@ body{
   border-radius: 10px;
 }
 
-.crdStyle{
-  background-color: var(--lightGreen);
+.card{
   width: 40%;
   border-style: solid;
   border-color: var(--green);
   border-width: 5px;
   border-radius: 5px;
-  justify-content: space-between;
   margin: 10px; 
+  background-color: var(--lightGreen);
 }
 
 .nav{
   background-color: var(--lightPurple);
+  width: 100%;
 }
 
-.btn{
+button{
   background-color: var(--pink);
   border-color: var(--pwdPink);
+  border-radius: 10px;
+  border-width: 1px;
+  justify-content: center;
+  justify-content: space-between;
 }
 
 .footer{
   background-color: var(--lightPurple);
-  justify-content: flex-end;
+ display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-items: stretch;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
 }
 
 .formStyle{
   background-color: #581845;
+  color: var(--offWhite);
+  width: 70%;
 }
 .btn-primary{
   background-color: var(--pink);
   border-color: var(--pwdPink);
 }
+.contactBtn{
+  background-color: var(--lightGreen);
+  border-color: var(--green);
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-flow: wrap;
+  flex-grow: 2;
+}
+
+.resumeBtn{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100%;
+  padding: 200px;
+}
+.btn{
+  justify-content: center;
+}
+
+
+
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.emmIcon{
+  height: 70px;
+  width: 70px;
+  justify-content: center;
+}
+

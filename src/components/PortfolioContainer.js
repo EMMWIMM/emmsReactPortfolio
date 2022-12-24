@@ -38,13 +38,13 @@ export default function PortfolioContainer() {
               GitHub
             </button>
           </a>
-          <a href='https://github.com/EMMWIMM' target="_blank" rel="noreferrer">
+          <a href='https://www.linkedin.com/in/emilee-anderson-7b8048239' target="_blank" rel="noreferrer">
             <button variant="secondary" size="sm">
               LinkedIn
             </button>
           </a>
    
-    <a href='https://github.com/EMMWIMM' target="_blank" rel="noreferrer">
+    <a href='https://www.instagram.com/emmwimm/' target="_blank" rel="noreferrer">
             <button variant="secondary" size="sm">
               Instagram
             </button>

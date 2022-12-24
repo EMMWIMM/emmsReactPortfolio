@@ -13,15 +13,9 @@
 
 body{
   background-color: var(--pwdPink);
-  display: flex;
-  /* position: fixed; */
-  /* top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  /* flex: auto; */
-  flex-wrap: wrap;
-  /* justify-content: center;  */
+min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .main{
   background-color: var(--Pink);
@@ -29,6 +23,7 @@ body{
   flex: auto;
   flex-wrap: wrap;
   justify-content: center;
+   margin: auto 0;
 }
 
 .card-img-top{
@@ -50,6 +45,7 @@ body{
 .nav{
   background-color: var(--lightPurple);
   width: 100%;
+  
 }
 
 button{
@@ -68,15 +64,17 @@ button{
   align-items: flex-end;
   align-items: stretch;
   height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  
   width: 100%;
+  position:fixed;
+bottom:0;
 }
 
 .formStyle{
   background-color: #581845;
   color: var(--offWhite);
   width: 70%;
+  padding-bottom: 30px;
 }
 .btn-primary{
   background-color: var(--pink);

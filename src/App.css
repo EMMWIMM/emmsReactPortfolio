@@ -9,10 +9,16 @@
 --maroon:#900C3F;
 --pink:#fe7b7b;
 --pwdPink: #F2E7EF;
+--btnColor: #2E6FF2;
+--liteCoral: #EF767A;
+--mAqua: #49DCB1;
+--aqua: #49BEAA;
+--sun:#EEB868;
+--lSun: #F8FFE5;
 }
 
 body{
-  background-color: var(--pwdPink);
+  background-color: var(--lSun);
 min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -35,54 +41,60 @@ min-height: 100vh;
 .card{
   width: 40%;
   border-style: solid;
-  border-color: var(--green);
+  border-color: var(--aqua);
   border-width: 5px;
   border-radius: 5px;
   margin: 10px; 
-  background-color: var(--lightGreen);
+  background-color: var(--mAqua);
 }
 
 .nav{
-  background-color: var(--lightPurple);
+  background-color: var(--sun);
   width: 100%;
   
 }
 
 button{
-  background-color: var(--pink);
-  border-color: var(--pwdPink);
+  background-color: var(--btnColor);
+  border-color: var(--lSun);
   border-radius: 10px;
   border-width: 1px;
   justify-content: center;
   justify-content: space-between;
+  /* padding: 5px; */
+  margin-left: 10px;
 }
 
 .footer{
-  background-color: var(--lightPurple);
+  background-color: var(--sun);
  display: flex;
   justify-content: center;
   align-items: flex-end;
   align-items: stretch;
   height: auto;
-  
   width: 100%;
   position:fixed;
 bottom:0;
 }
 
 .formStyle{
-  background-color: #581845;
-  color: var(--offWhite);
+  background-color: var(--aqua);
+  color: var(--lSun);
   width: 70%;
   padding-bottom: 30px;
+  padding-top: 10px;
 }
 .btn-primary{
-  background-color: var(--pink);
-  border-color: var(--pwdPink);
+  background-color: var(--btnColor);
+  border-color: var(--lSun);
+}
+
+.btn-primary:hover{
+  background-color: #581845;
 }
 .contactBtn{
-  background-color: var(--lightGreen);
-  border-color: var(--green);
+  background-color: var(--liteCoral);
+  border-color: var(--mAqua);
   border-radius: 5px;
   border-width: 1px;
 }
@@ -100,7 +112,7 @@ bottom:0;
 .resumeBtn{
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   height: 100%;
   padding: 200px;
 }
@@ -121,6 +133,7 @@ bottom:0;
   height: 70px;
   width: 70px;
   justify-content: center;
+  justify-items: center;
 }
 
 @media screen and (orientation: portrait) {

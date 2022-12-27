@@ -1,7 +1,5 @@
 import React from 'react';
 
-import icon from './icon.png';
-
 
 export default function About() {
   return (

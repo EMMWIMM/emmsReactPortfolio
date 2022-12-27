@@ -44,14 +44,14 @@ min-height: 100vh;
   border-color: var(--aqua);
   border-width: 5px;
   border-radius: 5px;
-  margin: 10px; 
+  margin: 10px;
   background-color: var(--mAqua);
 }
 
 .nav{
   background-color: var(--sun);
   width: 100%;
-  
+
 }
 
 button{
@@ -143,5 +143,5 @@ bottom:0;
   .formStyle{
     width: 100%;
   }
-  
+
 }

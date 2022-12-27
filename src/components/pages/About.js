@@ -1,11 +1,12 @@
 import React from 'react';
+import icon from '../images/icon1.png'
 
 
 export default function About() {
   return (
     <div className='about'>
-      <h2>About Emm!</h2>
-      <img src = './icon.png' alt = 'a cartoony emm giving double peace signs' className='emmIcon' />
+      <h1>About Emm!</h1>
+      <img src = {icon} alt = 'a cartoony emm giving double peace signs' className='emmIcon' />
       <p className= 'aboutP'>
 
     HI! I'm Emm, an amatuer coder and cartoonist! my pronouns are she/her and I'm 24 years old. I'm happily married and have three lovely cats: Weyland, Newt and Wyrm. I've been learning about web developement and honing my skills over the past few months with a particular interest in front end developement and graphic design.

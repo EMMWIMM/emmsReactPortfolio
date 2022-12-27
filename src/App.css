@@ -7,7 +7,7 @@
 --lightPurple: #DAB3CE;
 --lavender:#A46090;
 --maroon:#900C3F;
---pink:#fe7b7b;
+--pink:#f1b1b1;
 --pwdPink: #F2E7EF;
 --btnColor: #2E6FF2;
 --liteCoral: #EF767A;
@@ -15,6 +15,7 @@
 --aqua: #49BEAA;
 --sun:#EEB868;
 --lSun: #F8FFE5;
+--bloo: #7298e2;
 }
 
 body{
@@ -40,9 +41,9 @@ min-height: 100vh;
 
 .card{
   width: 40%;
-  border-style: solid;
+  border-style: double;
   border-color: var(--aqua);
-  border-width: 5px;
+  border-width: 10px;
   border-radius: 5px;
   margin: 10px;
   background-color: var(--mAqua);
@@ -131,13 +132,15 @@ bottom:0;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 80%;
 
 }
 
 .emmIcon{
-  height: 70px;
-  width: 70px;
+  height: inherit;
+  width: 25%;
+  display: flex;
   justify-content: center;
   justify-items: center;
   align-items: center;
@@ -150,11 +153,18 @@ bottom:0;
 
 .aboutP{
   font-size: 20px;
-  font-family: fantasy;
   justify-content: center;
-  color: var(--aqua);
-
+  /* color: var(--aqua); */
+  background-color: var(--pink);
+  border-color: var(--liteCoral);
+  border-width: 10px;
+  border-radius: 15px;
+  border-style: solid;
+  margin-bottom: 30px;
+  padding: 10px;
 }
+
+
 
 @media screen and (orientation: portrait) {
   .card{

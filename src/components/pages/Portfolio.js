@@ -1,8 +1,12 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-
-
+import notesnip from '../images/noteTakersnip.PNG';
+import readsnip from '../images/readsnip.PNG';
+import plannersnip from '../images/plannersnip.PNG';
+import passwordsnip from '../images/passwordsnip.PNG';
+import quizsnip from '../images/quizSnip.PNG';
+import pkmsnip from '../images/pkmsnip.PNG';
 
 
 function Portfolio() {
@@ -13,7 +17,7 @@ function Portfolio() {
         <div className="card crdStyle" >
           <img
             className="card-img-top"
-            src='./noteTakersnip.PNG'
+            src={notesnip}
 
           />
           <div className="card-body">
@@ -31,7 +35,7 @@ function Portfolio() {
         <div className="card crdStyle" >
           <img
             className="card-img-top"
-            src='./readsnip.PNG'
+            src={readsnip}
 
           />
           <div className="card-body">
@@ -48,7 +52,7 @@ function Portfolio() {
         <div className="card crdStyle">
           <img
             className="card-img-top"
-            src='./plannersnip.PNG'
+            src={plannersnip}
 
           />
           <div className="card-body">
@@ -67,7 +71,7 @@ function Portfolio() {
         <div className="card crdStyle" >
           <img
             className="card-img-top"
-            src='./passwordsnip.PNG'
+            src={passwordsnip}
 
           />
           <div className="card-body">
@@ -86,7 +90,7 @@ function Portfolio() {
         <div className="card crdStyle" >
           <img
             className="card-img-top"
-            src='./quizSnip.PNG'
+            src={quizsnip}
 
           />
           <div className="card-body">
@@ -104,7 +108,7 @@ function Portfolio() {
         <div className="card crdStyle" >
           <img
             className="card-img-top"
-            src='./pkmsnip.PNG'
+            src={pkmsnip}
 
           />
           <div className="card-body">

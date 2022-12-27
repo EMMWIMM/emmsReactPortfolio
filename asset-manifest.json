@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/emmsReactPortfolio/static/css/main.ae7a89c1.css",
-    "main.js": "/emmsReactPortfolio/static/js/main.682360b5.js",
+    "main.js": "/emmsReactPortfolio/static/js/main.8419d563.js",
     "index.html": "/emmsReactPortfolio/index.html",
     "main.ae7a89c1.css.map": "/emmsReactPortfolio/static/css/main.ae7a89c1.css.map",
-    "main.682360b5.js.map": "/emmsReactPortfolio/static/js/main.682360b5.js.map"
+    "main.8419d563.js.map": "/emmsReactPortfolio/static/js/main.8419d563.js.map"
   },
   "entrypoints": [
     "static/css/main.ae7a89c1.css",
-    "static/js/main.682360b5.js"
+    "static/js/main.8419d563.js"
   ]
 }

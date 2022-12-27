@@ -44,14 +44,14 @@ min-height: 100vh;
   border-color: var(--aqua);
   border-width: 5px;
   border-radius: 5px;
-  margin: 10px; 
+  margin: 10px;
   background-color: var(--mAqua);
 }
 
 .nav{
   background-color: var(--sun);
   width: 100%;
-  
+
 }
 
 button{
@@ -148,6 +148,14 @@ bottom:0;
   justify-content: center;
 }
 
+.aboutP{
+  font-size: 20px;
+  font-family: fantasy;
+  justify-content: center;
+  color: var(--aqua);
+
+}
+
 @media screen and (orientation: portrait) {
   .card{
     width: 100%;
@@ -155,5 +163,5 @@ bottom:0;
   .formStyle{
     width: 100%;
   }
-  
+
 }

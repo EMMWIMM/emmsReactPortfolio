@@ -136,6 +136,14 @@ bottom:0;
   justify-items: center;
 }
 
+.aboutP{
+  font-size: 20px;
+  font-family: fantasy;
+  justify-content: center;
+  color: var(--aqua);
+
+}
+
 @media screen and (orientation: portrait) {
   .card{
     width: 100%;

@@ -30,7 +30,7 @@ class Contact extends Component {
     const { status } = this.state;
     return (
       <div className="formStyle" id="contactSect">
-        <div className="container" id="contact">
+        <div className="containerForm" id="contact">
           <h3 className="contact text-center">Please Drop a Message</h3>
           <form
             className="contact-form"

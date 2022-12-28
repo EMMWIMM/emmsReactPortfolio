@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/emmsReactPortfolio/static/css/main.ae7a89c1.css",
-    "main.js": "/emmsReactPortfolio/static/js/main.8419d563.js",
+    "main.css": "/emmsReactPortfolio/static/css/main.5b2db9ca.css",
+    "main.js": "/emmsReactPortfolio/static/js/main.efdd63f7.js",
+    "static/media/icon1.png": "/emmsReactPortfolio/static/media/icon1.fbadc6ae242b15b35486.png",
+    "static/media/pkmsnip.PNG": "/emmsReactPortfolio/static/media/pkmsnip.c13e36bad35eee8a579b.PNG",
+    "static/media/readsnip.PNG": "/emmsReactPortfolio/static/media/readsnip.583087431af6fb55720b.PNG",
+    "static/media/noteTakersnip.PNG": "/emmsReactPortfolio/static/media/noteTakersnip.7f9254c193e645bd1afb.PNG",
+    "static/media/passwordsnip.PNG": "/emmsReactPortfolio/static/media/passwordsnip.2f40bd4cc4467a4ffeab.PNG",
+    "static/media/quizSnip.PNG": "/emmsReactPortfolio/static/media/quizSnip.5a5da4fad1e900092c70.PNG",
+    "static/media/plannersnip.PNG": "/emmsReactPortfolio/static/media/plannersnip.3b535bbab1586d10a7be.PNG",
     "index.html": "/emmsReactPortfolio/index.html",
-    "main.ae7a89c1.css.map": "/emmsReactPortfolio/static/css/main.ae7a89c1.css.map",
-    "main.8419d563.js.map": "/emmsReactPortfolio/static/js/main.8419d563.js.map"
+    "main.5b2db9ca.css.map": "/emmsReactPortfolio/static/css/main.5b2db9ca.css.map",
+    "main.efdd63f7.js.map": "/emmsReactPortfolio/static/js/main.efdd63f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae7a89c1.css",
-    "static/js/main.8419d563.js"
+    "static/css/main.5b2db9ca.css",
+    "static/js/main.efdd63f7.js"
   ]
 }
